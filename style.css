@@ -14,7 +14,7 @@
     li{
         list-style-type: none;
     }
-        button{
+        button.frequencia{
         background-color: rgb(71, 71, 252);
         color: white;
         padding: 12px 24px;
@@ -35,11 +35,28 @@
     a.lnk{
         text-decoration: underline;
     }
-    button:hover{
+    button.frequencia:hover{
         transition: 0.5s;
         width: 250px;
 
     }
+    #btnMute {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+    #btnMute:hover {
+  background-color: #444;
+}
 
     }
   
